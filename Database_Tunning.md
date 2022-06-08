@@ -132,3 +132,21 @@ Redo log buffer contain change of database.
 ![](./img/database/oracle-9.PNG)
 
 ![](./img/database/oracle-10.PNG)
+
+
+**Selectivity and Cardinity:**
+![](./img/database/oracle-11.PNG)
+
+![](./img/database/oracle-12.PNG)
+
+
+
+
+
+
+
+
+
+
+
+
