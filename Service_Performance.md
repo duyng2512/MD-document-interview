@@ -87,3 +87,43 @@ Fixing memory leak:
 - Profiling
 
 - Code review
+
+
+### 1.3 Street testing
+
+**KPI**:
+
+- Reponse time
+- Error Rate
+- User load
+- Response time
+- Latency
+- Connect time
+- Throughput
+
+
+**Load test**:
+
+- Peform to test how many user server can handle
+
+![](img/perform/perform-1.png)
+
+
+The following figure shows what a load test can look like in JMeter. This test analyzes adding 100 users every 30 seconds until reaching 1,000 users. The entire stepping process takes 300 seconds. After reaching 1,000 threads, all of them will continue running and hitting the server together for 5 minutes.
+
+
+**Stress Testing**: use for detecting memory leak, KPI such as response time, ... 
+
+- Spike test: suddenly ramp up number of concurrent user
+- Soak test: running highly concurrent number of user for a long period of time 
+
+
+![](img/perform/perform-2.png)
+
+
+### 1.4 Jmeter
+
+
+
+
+
