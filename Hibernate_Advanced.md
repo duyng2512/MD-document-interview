@@ -136,11 +136,11 @@ The concept of transactions can be described with four key properties: atomicity
 
 - **READ_UNCOMMITED**
 
-- **READ_COMMITED**: Prevent lost updates.
+- **READ_COMMITED**: Prevent lost updates. **Lock READ**
 
-- **REPEATABLE_READ**: Prevent repeatable read (`A non-repeatable read occurs, when during the course of a transaction, a row is retrieved twice and the values within the row differ between reads`)
+- **REPEATABLE_READ**: Prevent repeatable read (`A non-repeatable read occurs, when during the course of a transaction, a row is retrieved twice and the values within the row differ between reads`), **Lock READ + UPDATE**
 
-- **SERIALIZABLE**: Prevent phantom read (`A phantom read occurs, when during the course of a transaction, the content of row is unchange but the number of rows being fetch is increase or decrease, new row have been add or removed`)
+- **SERIALIZABLE**: Prevent phantom read (`A phantom read occurs, when during the course of a transaction, the content of row is unchange but the number of rows being fetch is increase or decrease, new row have been add or removed`), **Lock READ + INSERT + UPDATE + DELETE**
 
 **Connection pool**:
 

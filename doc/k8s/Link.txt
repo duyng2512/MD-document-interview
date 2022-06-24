@@ -1,0 +1,3 @@
+https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/
+https://github.com/kelseyhightower/kubernetes-the-hard-way
+https://kodekloud.com/

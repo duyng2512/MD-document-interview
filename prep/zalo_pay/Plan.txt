@@ -1,0 +1,17 @@
+Morning:
+- K8s
+- Redis
+- Cansandra
+- MongoDB
+- Istio
+- Debezium
+- Distributed Locking
+- Distributed system
+- Saga- two-phase commit
+- Site reliable engineering
+
+- Project
+
+Evening:
+- Algorithm
+- Interview question
